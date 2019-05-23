@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{87F7080B-E1A8-4A20-A315-FAD8F4C73A23}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>AE_Remap_Drei</RootNamespace>
+    <AssemblyName>AE_Remap_Drei</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+    <Optimize>false</Optimize>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>AE_Remap_Drei.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TS\TS_Caption.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TS\TS_CellData.cs" />
+    <Compile Include="TS\TS_CellLayer.cs" />
+    <Compile Include="TS\TS_Frame.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TS\TS_Grid.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TS\TS_GridBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TS\TS_GridColor.cs" />
+    <Compile Include="TS\TS_GridSize.cs" />
+    <Compile Include="TS\TS_HScrol.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TS\TS_Input.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TS\TS_Kagi.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TS\TS_Position.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TS\TS_Selection.cs" />
+    <Compile Include="TS\TS_VScrol.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TS_Dialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TS_Dialog.Designer.cs">
+      <DependentUpon>TS_Dialog.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="TS_Dialog.resx">
+      <DependentUpon>TS_Dialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\01_ScrolArrow_H.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\01_ScrolArrow_H_dn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\01_ScrolIconA_HL.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\01_ScrolIconA_HL_dn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\01_ScrolIconA_HR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\01_ScrolIconA_HR_dn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\01_ScrolIconB_HL.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\01_ScrolIconB_HL_dn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\01_ScrolIconB_HR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\01_ScrolIconB_HR_dn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\01_ScrolIconC_H1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\01_ScrolIconC_H2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\02_ScrolArrow_V.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\02_ScrolArrow_V_dn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\02_ScrolIconA_VB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\02_ScrolIconA_VB_dn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\02_ScrolIconA_VT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\02_ScrolIconA_VT_dn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\02_ScrolIconB_VB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\02_ScrolIconB_VB_dn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\02_ScrolIconB_VT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\02_ScrolIconB_VT_dn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\02_ScrolIconC_V1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\02_ScrolIconC_V2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 および x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

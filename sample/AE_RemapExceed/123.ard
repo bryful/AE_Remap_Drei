@@ -1,0 +1,58 @@
+#TimeSheetGrid SheetData
+
+*Comment
+
+*ParamStart
+LayerCount	5
+FrameCount	72
+CmpFps	24
+SrcWidth	1280
+SrcHeight	720
+PageSec	6
+SrcAspect	1
+CmpAspect	1
+EmptyCell	3
+remaping	False
+CREATE_USER	
+UPDATE_USER	
+CREATE_TIME	2010/10/15 19:06:43
+UPDATE_TIME	2010/10/15 19:06:43
+TITLE	
+SUB_TITLE	
+OPUS	
+SCECNE	
+CUT	
+
+*CellName
+0	A
+1	B
+2	C
+3	D
+4	E
+
+*Memo
+
+*FrameEnabled
+1	0
+
+*CellDataStart
+*Cell	0
+1	1
+7	2
+9	0
+11	3
+13	0
+15	4
+17	0
+*CellEnd	0
+*Cell	1
+1	1
+4	2
+7	3
+10	4
+13	5
+16	6
+19	7
+22	0
+*CellEnd	1
+*End
