@@ -40,7 +40,7 @@
             this.button1.DialogResult = System.Windows.Forms.DialogResult.OK;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button1.Location = new System.Drawing.Point(192, 134);
+            this.button1.Location = new System.Drawing.Point(231, 118);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
@@ -63,7 +63,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::AE_Remap_Drei.Properties.Resources.Back;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(318, 195);
+            this.ClientSize = new System.Drawing.Size(318, 153);
             this.Controls.Add(this.numericUpDown1);
             this.Controls.Add(this.button1);
             this.DoubleBuffered = true;

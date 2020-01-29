@@ -1,0 +1,28 @@
+fr = 24;
+frm = Math.floor(time * fr);
+cell = thisComp.layer("24_3_A_B_C.json").source.sourceData.A;
+fr2 = 1/thisLayer.source.frameDuration;
+if(frm>=cell.length)
+{
+	v = cell.length/fr2;
+}else{
+	v = (cell[frm]-1)/fr2;
+	if (v<0) v = cell.length/fr2;
+}
+v;
+
+///
+fr = 24;
+frm = Math.floor(time * fr);
+cell = thisComp.layer("24_3_A_B_C.json").source.sourceData.A;
+v = 0;
+if(frm<cell.length){
+	v = cell[frm];
+}
+if (v==0)
+{
+	0;
+}else{
+	value;
+}
+

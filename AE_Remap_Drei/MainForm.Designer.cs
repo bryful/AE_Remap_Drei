@@ -55,7 +55,7 @@
             this.ediToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(427, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(498, 24);
             this.menuStrip1.TabIndex = 15;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -90,7 +90,7 @@
             this.undoToolStripMenuItem.BackColor = System.Drawing.SystemColors.HotTrack;
             this.undoToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.undoToolStripMenuItem.Name = "undoToolStripMenuItem";
-            this.undoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.undoToolStripMenuItem.Size = new System.Drawing.Size(103, 22);
             this.undoToolStripMenuItem.Text = "Undo";
             // 
             // tS_Frame1
@@ -108,7 +108,7 @@
             this.tS_Frame1.MaximumSize = new System.Drawing.Size(90, 1152);
             this.tS_Frame1.MinimumSize = new System.Drawing.Size(90, 96);
             this.tS_Frame1.Name = "tS_Frame1";
-            this.tS_Frame1.Size = new System.Drawing.Size(90, 420);
+            this.tS_Frame1.Size = new System.Drawing.Size(90, 520);
             this.tS_Frame1.TabIndex = 14;
             this.tS_Frame1.Text = "tS_Frame1";
             // 
@@ -123,14 +123,14 @@
             this.tS_Grid1.Font_Style = System.Drawing.FontStyle.Regular;
             this.tS_Grid1.FontBold = false;
             this.tS_Grid1.HScrollBar = null;
-            this.tS_Grid1.LayerIndex = 3;
+            this.tS_Grid1.LayerIndex = 0;
             this.tS_Grid1.LineAlignment = System.Drawing.StringAlignment.Center;
             this.tS_Grid1.Location = new System.Drawing.Point(98, 78);
             this.tS_Grid1.MaximumSize = new System.Drawing.Size(360, 1152);
             this.tS_Grid1.MinimumSize = new System.Drawing.Size(180, 96);
             this.tS_Grid1.Name = "tS_Grid1";
             this.tS_Grid1.SelLength = 5;
-            this.tS_Grid1.Size = new System.Drawing.Size(292, 420);
+            this.tS_Grid1.Size = new System.Drawing.Size(360, 520);
             this.tS_Grid1.StartIndex = 1;
             this.tS_Grid1.TabIndex = 3;
             this.tS_Grid1.Text = "tS_Grid1";
@@ -165,7 +165,7 @@
             this.tS_Kagi3.FontBold = false;
             this.tS_Kagi3.Grid = null;
             this.tS_Kagi3.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.tS_Kagi3.Location = new System.Drawing.Point(2, 504);
+            this.tS_Kagi3.Location = new System.Drawing.Point(2, 604);
             this.tS_Kagi3.MaximumSize = new System.Drawing.Size(22, 22);
             this.tS_Kagi3.MinimumSize = new System.Drawing.Size(22, 22);
             this.tS_Kagi3.Name = "tS_Kagi3";
@@ -184,7 +184,7 @@
             this.tS_Kagi2.FontBold = false;
             this.tS_Kagi2.Grid = null;
             this.tS_Kagi2.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.tS_Kagi2.Location = new System.Drawing.Point(396, 504);
+            this.tS_Kagi2.Location = new System.Drawing.Point(467, 604);
             this.tS_Kagi2.MaximumSize = new System.Drawing.Size(22, 22);
             this.tS_Kagi2.MinimumSize = new System.Drawing.Size(22, 22);
             this.tS_Kagi2.Name = "tS_Kagi2";
@@ -203,7 +203,7 @@
             this.tS_Kagi1.FontBold = false;
             this.tS_Kagi1.Grid = null;
             this.tS_Kagi1.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.tS_Kagi1.Location = new System.Drawing.Point(396, 27);
+            this.tS_Kagi1.Location = new System.Drawing.Point(467, 27);
             this.tS_Kagi1.MaximumSize = new System.Drawing.Size(22, 22);
             this.tS_Kagi1.MinimumSize = new System.Drawing.Size(22, 22);
             this.tS_Kagi1.Name = "tS_Kagi1";
@@ -216,11 +216,11 @@
             this.tS_HScrol1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tS_HScrol1.BackColor = System.Drawing.Color.Transparent;
-            this.tS_HScrol1.Location = new System.Drawing.Point(108, 504);
+            this.tS_HScrol1.Location = new System.Drawing.Point(108, 604);
             this.tS_HScrol1.Maximum = 200;
             this.tS_HScrol1.MinimumSize = new System.Drawing.Size(123, 22);
             this.tS_HScrol1.Name = "tS_HScrol1";
-            this.tS_HScrol1.Size = new System.Drawing.Size(282, 22);
+            this.tS_HScrol1.Size = new System.Drawing.Size(353, 22);
             this.tS_HScrol1.TabIndex = 5;
             this.tS_HScrol1.Text = "tS_HScrol1";
             this.tS_HScrol1.Value = 0;
@@ -230,11 +230,11 @@
             this.tS_VScrol1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tS_VScrol1.BackColor = System.Drawing.Color.Transparent;
-            this.tS_VScrol1.Location = new System.Drawing.Point(396, 63);
+            this.tS_VScrol1.Location = new System.Drawing.Point(467, 63);
             this.tS_VScrol1.Maximum = 200;
             this.tS_VScrol1.MinimumSize = new System.Drawing.Size(22, 123);
             this.tS_VScrol1.Name = "tS_VScrol1";
-            this.tS_VScrol1.Size = new System.Drawing.Size(22, 435);
+            this.tS_VScrol1.Size = new System.Drawing.Size(22, 535);
             this.tS_VScrol1.TabIndex = 4;
             this.tS_VScrol1.Text = "tS_VScrol1";
             this.tS_VScrol1.Value = 0;
@@ -254,7 +254,7 @@
             this.tS_Caption1.MaximumSize = new System.Drawing.Size(360, 45);
             this.tS_Caption1.MinimumSize = new System.Drawing.Size(180, 45);
             this.tS_Caption1.Name = "tS_Caption1";
-            this.tS_Caption1.Size = new System.Drawing.Size(292, 45);
+            this.tS_Caption1.Size = new System.Drawing.Size(360, 45);
             this.tS_Caption1.TabIndex = 1;
             this.tS_Caption1.Text = "tS_Caption1";
             // 
@@ -275,7 +275,7 @@
             this.BackColor = System.Drawing.Color.Black;
             this.BackgroundImage = global::AE_Remap_Drei.Properties.Resources.Back;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(427, 535);
+            this.ClientSize = new System.Drawing.Size(498, 635);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.tS_Frame1);
             this.Controls.Add(this.tS_Input1);
